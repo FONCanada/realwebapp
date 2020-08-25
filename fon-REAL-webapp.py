@@ -117,7 +117,7 @@ fig.update_layout(
 
 # add FON logo
 fig.layout.images = [dict(
-    source="https://raw.githubusercontent.com/h3mps/t1webapp/master/fon-icon.png",
+    source="https://raw.githubusercontent.com/FONCanada/realwebapp/master/fon-logo.png",
     xref="paper", yref="paper",
     x=1, y=-0.5,
     sizex=0.25, sizey=0.25,
