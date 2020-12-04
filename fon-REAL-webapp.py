@@ -31,7 +31,7 @@ data = data[mask_norms]
 
 # Item
 ITEMS = list(data['fonitem'].unique())
-ITEMS_SELECTED = st.multiselect('Select Items (max. 5)', ITEMS, default=["Total revenue"])
+ITEMS_SELECTED = st.multiselect('Select Items (max. 5)', ITEMS, default=["Total revenue [1000]"])
 mask_items = data['fonitem'].isin(ITEMS_SELECTED)
 data = data[mask_items]
 
